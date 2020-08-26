@@ -1,0 +1,21 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+#main {
+  width: 800px;
+  margin: 20px auto 0;
+  background: cornsilk;
+  border: purple;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#nav {
+  background: yellow;
+}
+
+#jumbo {
+  background: orange;
+}
