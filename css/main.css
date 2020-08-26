@@ -17,13 +17,13 @@
 }
 
 div#nav-logo img {
-  padding: 5px;
+  padding: 5px 0 5px 20px;
   width: 200px;
 }
 
 div#nav-links {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -33,7 +33,7 @@ div#nav-links {
   height: 100%;
   display: grid;
   justify-content: center;
-  align-items: center;;
+  align-items: center;
 }
 
 .links:hover {
@@ -42,5 +42,24 @@ div#nav-links {
 }
 
 #jumbo {
-  background: orange;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#info-header h1,
+h2 {
+  text-align: center;
+}
+
+#info-header p {
+  width: 600px;
+  margin: auto;
+}
+
+#social-link {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
