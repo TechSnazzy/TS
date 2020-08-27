@@ -6,7 +6,7 @@
 #main {
   width: 800px;
   margin: 20px auto 0;
-  background: #1E6ADD;
+  background: mediumturquoise;
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -38,7 +38,7 @@ div#nav-links {
 }
 
 .links:hover {
-  background: blue;
+  background: tomato;
   color: white;
 }
 
@@ -70,6 +70,11 @@ h2 {
   margin: 10px auto;
 }
 
-.fab {
+.social-links a {
   margin: 0 10px;
+  color: white;
+}
+
+.social-links a:hover {
+  color: gray;
 }
